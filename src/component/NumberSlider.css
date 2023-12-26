@@ -1,0 +1,81 @@
+
+.NumberSlider {
+          width: 100%;
+}
+.NumberSlider .Slider {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+}
+.NumberSlider .Slider  .slider-container {
+          width: 40%;
+          height: auto;
+margin-left: 10vmax;
+}
+.NumberSlider .Slider  .slide {
+          width:40%;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-evenly;
+}
+.NumberSlider .Slider  .slide-content {
+          flex: 1;
+          display: flex;
+          justify-content: space-between;
+          padding: 2vmax;
+          text-align: left;
+}
+.NumberSlider .Slider  .slide-content .left-box{
+          width: 50%;
+}
+.NumberSlider .Slider  .slide-content .left-box .left-number{
+          font-size: 3vmax;
+          font-weight: bolder;
+}
+.NumberSlider .Slider  .slide-content .left-box .left-text{
+          color: #0000009c;
+}
+.NumberSlider .Slider  .slide-content .right-box{
+          width: 50%;
+}
+.NumberSlider .Slider  .slide-content .right-box .right-number{
+          font-size: 3vmax;
+          font-weight: bolder;
+}
+.NumberSlider .Slider  .slide-content .right-box .right-text{
+          color: #0000009c;
+}
+.NumberSlider .Slider  .slick-dots li.slick-active button:before {
+          color: #ffffff;
+}
+
+
+@media (max-width:600px) {
+          .NumberSlider .Slider {
+                    justify-content: center;
+          }
+          .NumberSlider .Slider  .slider-container {
+                    width: 90%;
+          margin-left: 0vmax;
+          }
+          .NumberSlider .Slider  .slide {
+                    width: 90%;
+          }
+}
+
+@media (min-width:600px)and (max-width:950px) {
+          .NumberSlider .Slider {
+                    justify-content: center;
+          }
+          .NumberSlider .Slider  .slider-container {
+                    width: 90%;
+          margin-left: 0vmax;
+          }
+          .NumberSlider .Slider  .slide {
+                    width: 90%;
+          }
+}

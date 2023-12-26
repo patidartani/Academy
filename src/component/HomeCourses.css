@@ -1,0 +1,143 @@
+.courses{
+    margin-top: 5vmax;
+}
+
+.courses .topcourse{
+margin-left: 4vmax;
+margin-bottom: 2vmax;
+
+}
+.image-sliders{
+    width: 100%;
+    height: 30vmax;
+    position: relative;
+    display: flex;
+    justify-content: center;  
+}
+.coursediv{
+    width: 85%;
+    flex-direction: column;
+flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.coursediv::-webkit-scrollbar{
+    display: none;
+}
+.maincoursediv{
+    width: 25%;
+    height: 90%;
+    display: inline-block;
+    white-space: wrap;
+    border-radius: 1vmax;
+    overflow: hidden;
+    box-shadow: 2px 2px 17px 1px rgb(210, 207, 207);
+    margin-left:3vmax ;
+    
+}
+.maincoursediv .theme{
+    font-size: 1.3vmax;
+    margin-left:1vmax ;
+    margin-top: 1vmax;
+}
+.topcourseimage{
+    width: 100%;
+    height: 42%;
+    overflow: hidden;
+}
+.maincoursediv img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.maincoursediv:hover img{
+    transform: scale(1.2);
+}
+
+.maincoursediv .compare{
+    background-color: #754ffe;
+    color: white;
+    padding-left: 0.5vmax;
+    font-size: 0.8vmax;
+    border-radius: 0.5vmax;
+    border: none;
+}
+.maincoursediv .review i{
+    color: rgb(255, 145, 0);
+}
+.maincoursediv p{
+    margin-left: 1.2vmax;
+    line-height: 2vmax;
+    margin-top: 1vmax;
+    color: gray;
+}
+.timeprice h4{
+    font-size: 1vmax;
+}
+.slider-buttons {
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 2vmax;
+    margin-right: 2vmax;
+    border-radius: 50%;
+    opacity: 0.4;
+    padding: 0vmax 1vmax;
+    
+  }
+  .slider-controlss {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+   
+  }
+  .slider-controlss .slider-buttons i{
+    font-size: 4.5vmax;
+  }
+
+  @media (max-width:600px) {
+    .image-sliders{
+        height: 65vmax;
+    }
+    .coursediv{
+        width: 100%;
+    }
+    .maincoursediv{
+        width: 90%;
+        height: 75%;
+        /* background-color: red; */
+        margin-left:2.2vmax ;
+    }
+    .maincoursediv .theme{
+        font-size: 2.2vmax;
+    }
+    .maincoursediv .compare{
+        font-size: 1.7vmax;
+    }
+    .maincoursediv p{
+        margin-top: 2.5vmax;
+        font-size: 1.7vmax;
+    }
+    .timeprice h4{
+    font-size: 2.2vmax;
+    }
+    .slider-buttons{
+        display: none;
+    }
+  }
+
+
+
+ 
+  
+ 
+  
+
+  

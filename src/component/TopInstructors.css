@@ -1,0 +1,577 @@
+.TopInstructors{
+          width: 100%;
+          height: auto;
+          margin-top: 4vmax;
+}
+.TopInstructors .Instructors{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.TopInstructors .Instructors  .InsOne{
+          width: 100%;
+          height: 30vmax;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.TopInstructors .Instructors  .InsOne h1{
+          display: flex;
+          font-size: 2.4vmax;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          font-weight: 700;
+}
+
+.TopInstructors .Instructors  .InsOne  p{
+          font-size: 1.3vmax;
+}
+.TopInstructors .Instructors  .InsOne .InsTop{
+          width: 40%;
+          height: 20vmax;
+          display: flex;
+          align-items: center;
+          justify-content:space-evenly;
+          flex-direction: row;
+}
+.TopInstructors .Instructors  .InsOne .InsTop .one{
+          width: 40%;
+          height: 15vmax;
+          display: flex;
+          position: relative;
+          border-top-left-radius: 35%;
+          border-bottom-left-radius: 5%;
+          border-bottom-right-radius: 12%;
+          align-items: center;
+          justify-content:space-between;
+          flex-direction: column;
+          background: #323232f2;
+          cursor: pointer;
+          transition: 2s;
+}
+.TopInstructors .Instructors .InsOne .InsTop .one .social-icons {
+          position: absolute;
+          z-index: 111;
+          top: 90%;
+          background-color: #fff;
+          border-radius: 5px;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          display: none;
+        }
+        
+        .TopInstructors .Instructors .InsOne .InsTop .one:hover .social-icons {
+          display: block;
+        }
+        
+        .TopInstructors .Instructors .InsOne .InsTop .one .social-icons a {
+          margin: 0 5px;
+          color: #057eff;
+          text-decoration: none;
+          font-size: 24px;
+        }
+.TopInstructors .Instructors  .InsOne .InsTop .one img{
+    width: 85%;
+    border-radius: 10px;
+    height: 30vmax;
+    z-index: 111;
+}
+
+.TopInstructors .Instructors  .InsOne .InsBottom{
+          width: 30%;
+          height: 4vmax;
+          display: flex;
+          flex-direction: column;         
+          align-items: flex-start;
+          justify-content:space-between;
+          flex-direction: row;
+}
+.TopInstructors .Instructors  .InsOne .InsBottom p{
+          font-size: 1.3vmax;
+          color: #000;
+          font-weight: 600;
+          cursor: pointer;
+}
+.TopInstructors .Instructors  .InsOne .InsBottom p:hover{
+          color: blueviolet;
+}
+
+.TopInstructors .Instructors .InsTwo{
+          width: 100%;
+          height: 15vmax;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.TopInstructors .Instructors .InsTwo h1{
+          display: flex;
+          font-size: 2vmax;
+          font-weight: bolder;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.TopInstructors .Instructors .InsTwo h1 span img{
+          width: 80%;
+}
+.TopInstructors .Instructors .InsTwo p{
+  width: 90%;
+  text-align: center;
+          font-size: 1.2vmax;
+}
+.TopInstructors .Instructors .InsThree{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column;
+}
+.TopInstructors .Instructors .InsThree .InsBox1{
+          width: 70%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: row;
+          height: 20vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox1 .BoxLeft{
+          width: 30%;
+          height: 20vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox1 .BoxLeft img{
+          width: 100%;
+          height: 20vmax;
+          object-fit: contain;
+}
+.TopInstructors .Instructors .InsThree .InsBox1 .BoxRight{
+          width:60%;
+          height: 20vmax;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: row;
+}
+.TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .number{
+          width: 15%;
+          height: 10vmax;
+          color: rgb(144, 17, 255);
+          font-size: 138px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+}
+.TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text{
+          width: 75%;
+          height: 10vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+}
+.TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text h1{
+          font-size: 1.5vmax;
+          font-weight: bolder;
+}
+.TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text span{
+          width: 25%;
+          height: 0.2vmax;
+          background-color: rgb(64, 64, 255);
+}
+
+.TopInstructors .Instructors .InsThree .InsBox2{
+          width: 70%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: row;
+          height: 20vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxRight{
+          width: 30%;
+          height: 20vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxRight img{
+          width: 100%;
+          height: 20vmax;
+          object-fit: contain;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft{
+          width:60%;
+          height: 20vmax;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: row;
+}
+
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .number{
+          width: 15%;
+          height: 10vmax;
+          color: rgb(144, 17, 255);
+          font-size: 138px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text{
+          width: 75%;
+          height: 10vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text h1{
+          font-size: 1.5vmax;
+          font-weight: bolder;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text span{
+          width: 25%;
+          height: 0.2vmax;
+          background-color: rgb(64, 64, 255);
+}
+
+
+
+
+
+@media (max-width: 600px) {
+          .TopInstructors{
+                    width: 100%;
+                    height: auto;
+          }
+          .TopInstructors .Instructors{
+                    width: 100%;
+                    height: auto;
+          }
+          .TopInstructors .Instructors  .InsOne{
+                    width: 90%;
+                    height: 100vmax;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+          }
+          .TopInstructors .Instructors  .InsOne h1{
+                    font-size: 5vmax;
+          }
+          .TopInstructors .Instructors  .InsOne p{
+                    font-size: 2.5vmax;
+          }
+          .TopInstructors .Instructors  .InsOne .InsTop{
+                    width: 100%;
+                    height: 100vmax;
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-evenly;
+                    flex-direction: column;
+          }
+          .TopInstructors .Instructors  .InsOne .InsTop .one{
+                    width: 90%;
+                    height: 32vmax;
+                    display: flex;
+                    border-top-left-radius: 35%;
+                    border-bottom-left-radius: 5%;
+                    border-bottom-right-radius: 12%;
+                    align-items: center;
+                    justify-content:space-between;
+                    flex-direction: column;
+                    background: #323232f2;
+          }
+          .TopInstructors .Instructors  .InsOne .InsTop .one img{
+                    width: 70%;
+                    height: 32vmax;
+                }
+                .TopInstructors .Instructors  .InsOne .InsBottom{
+                  display: none;
+          }
+          .TopInstructors .Instructors .InsTwo{
+                    width: 100%;
+                    height: 20vmax;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+          }
+          .TopInstructors .Instructors .InsTwo h1{
+                    font-size: 3.5vmax;
+          }
+          .TopInstructors .Instructors .InsTwo p{
+                    font-size: 2vmax;
+          }
+          .TopInstructors .Instructors .InsThree{
+                    width: 100%;
+                    height: auto;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1{
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    height: 100vmax;
+          }
+
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxLeft{
+                    width: 90%;
+                    height: 40vmax;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxLeft img{
+                    width: 100%;
+                    height: 40vmax;
+                    object-fit: contain;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight{
+                    width:90%;
+                    height: 60vmax;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+          }
+
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .number{
+                    width: 80%;
+                    height: 20vmax;
+                    color: rgb(144, 17, 255);
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text{
+                    width: 80%;
+                    height: 50vmax;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text h1{
+                    font-size: 3vmax;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text span{
+                    width:50%;
+                    height: 0.2vmax;
+                    background-color: rgb(64, 64, 255);
+          }
+          
+          .TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text p{
+                    font-size: 1vmax;
+
+          }
+            /* ------------- */
+          
+.TopInstructors .Instructors .InsThree .InsBox2{
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column-reverse;
+          height: 100vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxRight{
+          width: 90%;
+          height: 40vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxRight img{
+          width: 100%;
+          height: 40vmax;
+          object-fit: contain;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft{
+          width:90%;
+          height: 60vmax;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+}
+
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text{
+          width: 90%;
+          height: 40vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text h1{
+          font-size: 3vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text span{
+          width: 50%;
+          height: 0.2vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft  .number{
+          width: 50%;
+          height: 20vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text p{
+    font-size: 2vmax;
+}
+}
+
+@media (min-width: 600px) and  (max-width: 890px){
+          .TopInstructors{
+                    width: 100%;
+                    height: auto;
+          }
+          .TopInstructors .Instructors{
+                    width: 100%;
+                    height: auto;
+          }
+          .TopInstructors .Instructors  .InsOne{
+                    width: 90%;
+                    height: 100vmax;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+          }
+          .TopInstructors .Instructors  .InsOne h1{
+                    font-size: 5vmax;
+          }
+          .TopInstructors .Instructors  .InsOne p{
+                    font-size: 2.5vmax;
+          }
+          .TopInstructors .Instructors  .InsOne .InsTop{
+                    width: 100%;
+                    height: 100vmax;
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-evenly;
+                    flex-direction: column;
+          }
+          .TopInstructors .Instructors  .InsOne .InsTop .one{
+                    width: 50%;
+                    height: 32vmax;
+                    display: flex;
+                    border-top-left-radius: 35%;
+                    border-bottom-left-radius: 5%;
+                    border-bottom-right-radius: 12%;
+                    align-items: center;
+                    justify-content:space-between;
+                    flex-direction: column;
+                    background: #323232f2;
+          }
+          .TopInstructors .Instructors  .InsOne .InsTop .one img{
+                    width: 70%;
+                    height: 32vmax;
+                }
+                .TopInstructors .Instructors  .InsOne .InsBottom{
+                  display: none;
+          }
+          .TopInstructors .Instructors .InsTwo{
+                    width: 100%;
+                    height: 20vmax;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+          }
+          .TopInstructors .Instructors .InsTwo h1{
+                    font-size: 3.5vmax;
+          }
+          .TopInstructors .Instructors .InsTwo p{
+                    font-size: 2vmax;
+          }
+          .TopInstructors .Instructors .InsThree{
+                    width: 100%;
+                    height: auto;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1{
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    height: 100vmax;
+          }
+
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxLeft{
+                    width: 90%;
+                    height: 40vmax;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxLeft img{
+                    width: 100%;
+                    height: 40vmax;
+                    object-fit: contain;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight{
+                    width:90%;
+                    height: 60vmax;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+          }
+
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .number{
+                    width: 80%;
+                    height: 20vmax;
+                    color: rgb(144, 17, 255);
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text{
+                    width: 80%;
+                    height: 40vmax;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text h1{
+                    font-size: 3vmax;
+          }
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text span{
+                    width:50%;
+                    height: 0.2vmax;
+                    background-color: rgb(64, 64, 255);
+          }
+          
+          .TopInstructors .Instructors .InsThree .InsBox1 .BoxRight .text p{
+                    font-size: 2vmax;
+
+          }
+            /* ------------- */
+          
+.TopInstructors .Instructors .InsThree .InsBox2{
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column-reverse;
+          height: 100vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxRight{
+          width: 90%;
+          height: 40vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxRight img{
+          width: 100%;
+          height: 40vmax;
+          object-fit: contain;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft{
+          width:90%;
+          height: 60vmax;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+}
+
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text{
+          width: 90%;
+          height: 40vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text h1{
+          font-size: 3vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text span{
+          width: 50%;
+          height: 0.2vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft  .number{
+          width: 50%;
+          height: 20vmax;
+}
+.TopInstructors .Instructors .InsThree .InsBox2 .BoxLeft .text p{
+    font-size: 2vmax;
+}
+}

@@ -1,0 +1,225 @@
+.Home6One{
+          width: 100%;
+          padding-top: 6vmax;
+}
+.Home6One .HomeSixMain{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.Home6One .HomeSixMain .HomeSixTop{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+}
+.Home6One .HomeSixMain .HomeSixTop .HomeSixLeft{
+          width: 40%;
+          display: flex;
+          /* padding: 10vmax; */
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+          /* background-color: blue; */
+          overflow-x: hidden;
+        
+}
+.slider6{
+      width: 300%;
+      transform: translateX(-10.6vmax);
+      z-index: 999;
+      /* background-color: red; */
+      
+}
+
+.Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h6{
+        color: rgb(68, 86, 74); 
+        letter-spacing: 1px;
+}
+.Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h2 {
+          font-size: 4.5vmax; 
+          font-weight: 600;
+   }
+.Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h2 span{
+         font-size: 4.5vmax; 
+         color: rgb(68, 86, 74); 
+         font-weight: 700;
+  }
+  .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h3{
+          font-size: 3.5vmax; 
+          font-weight: 600;
+   }
+   .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft p{
+         color: rgba(69, 51, 51, 0.678);
+         font-size: 1.2vmax;
+         font-family: Arial, Helvetica, sans-serif;
+   }
+   .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft button{
+        border: none;
+        background-color: rgba(78, 78, 78, 0.879);
+         color: #fff;
+         padding: 0.5vmax 1vmax;
+    }
+.Home6One .HomeSixMain .HomeSixTop .HomeSixRight{
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content:flex-start;
+          padding-top: 7vmax;
+          /* background-color: red; */
+}
+.Home6One .HomeSixMain .HomeSixTop .HomeSixRight img{
+      width: 80%;
+}
+
+
+.Home6One .HomeSixMain .HomeSixBottom{
+          width: 100%;
+          margin-top: 2vmax;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          flex-direction: row;
+          margin-bottom: 2vmax;
+
+}
+.Home6One .HomeSixMain .HomeSixBottom .bx{
+          width: 25%;
+          display: flex;
+          border-right: 0.1px solid #0000005f;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column;
+}
+.Home6One .HomeSixMain .HomeSixBottom .bx h3{
+             font-size: 1.2vmax;
+             margin-top: 2vmax;
+  }
+.Home6One .HomeSixMain .HomeSixBottom .bx p{
+        text-align: center;
+        width: 80%;
+        margin-top: 0.2vmax;
+           font-size: 1vmax;
+           color: rgba(0, 0, 0, 0.568);
+           font-weight: 600;
+}
+
+
+@media (max-width:600px) {
+.Home6One .HomeSixMain .HomeSixTop{
+          justify-content: center;
+          flex-direction:column-reverse;
+}    
+.Home6One .HomeSixMain .HomeSixTop .HomeSixLeft{
+          width: 90%;
+          padding: 0vmax;
+          align-items: flex-start;
+}
+.Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h6{
+          margin-top: 1vmax;
+  }
+  .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h2 {
+            font-size: 5vmax; 
+     }
+  .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h2 span{
+           font-size: 5vmax; 
+    }
+    .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h3{
+            font-size: 5vmax; 
+     }
+     .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft p{
+           font-size: 2vmax;
+     }
+     .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft button{
+           padding: 1vmax 3vmax;
+           margin-top: 1vmax;
+      }
+.Home6One .HomeSixMain .HomeSixTop .HomeSixRight{
+          width: 90%;
+}
+.Home6One .HomeSixMain .HomeSixTop .HomeSixRight img{
+          width: 100%;
+}
+.Home6One .HomeSixMain .HomeSixBottom{
+          margin-top: 10vmax;
+          flex-direction: column;
+}
+.Home6One .HomeSixMain .HomeSixBottom .bx{
+          width: 90%;
+          border-right: none;
+          margin-top: 5vmax;
+          flex-direction: column;
+}
+.Home6One .HomeSixMain .HomeSixBottom .bx h3{
+             font-size: 2.5vmax;
+             margin-top: 3vmax;
+  }
+.Home6One .HomeSixMain .HomeSixBottom .bx p{
+           font-size: 2vmax;
+}
+}
+
+
+@media (min-width:600px) and (max-width:950px) {
+          .Home6One .HomeSixMain .HomeSixTop{
+                    justify-content: center;
+                    flex-direction:column-reverse;
+          }    
+          .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft{
+                    width: 90%;
+                    padding: 0vmax;
+                    align-items: flex-start;
+          }
+          .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h6{
+                    margin-top: 1vmax;
+            }
+            .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h2 {
+                      font-size: 5vmax; 
+               }
+            .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h2 span{
+                     font-size: 5vmax; 
+              }
+              .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft h3{
+                      font-size: 5vmax; 
+               }
+               .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft p{
+                     font-size: 2vmax;
+               }
+               .Home6One .HomeSixMain .HomeSixTop .HomeSixLeft button{
+                     padding: 1vmax 3vmax;
+                     margin-top: 1vmax;
+                }
+          .Home6One .HomeSixMain .HomeSixTop .HomeSixRight{
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .Home6One .HomeSixMain .HomeSixTop .HomeSixRight img{
+                    width: 90%;
+          }
+          .Home6One .HomeSixMain .HomeSixBottom{
+                    margin-top: 10vmax;
+                    flex-direction: column;
+          }
+          .Home6One .HomeSixMain .HomeSixBottom .bx{
+                    width: 90%;
+                    border-right: none;
+                    margin-top: 5vmax;
+                    flex-direction: column;
+          }
+          .Home6One .HomeSixMain .HomeSixBottom .bx h3{
+                       font-size: 2.5vmax;
+                       margin-top: 3vmax;
+            }
+          .Home6One .HomeSixMain .HomeSixBottom .bx p{
+                     font-size: 2vmax;
+          }
+          
+          
+          
+          
+          }

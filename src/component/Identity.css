@@ -1,0 +1,171 @@
+.Identity{
+          width: 100%;
+}
+.Identity .OurIdentity{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.Identity .OurIdentity .IdentityTop{
+          width: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: row;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft{
+          width: 50%;
+          display: flex;
+          padding: 5vmax;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft h3{
+      font-size: 1vmax;   
+      letter-spacing: 1px;
+      color: rgb(255, 101, 147);
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft h2{
+          font-size: 2vmax;   
+          font-weight: 700;
+    }
+    .Identity .OurIdentity .IdentityTop .IdentityTopLeft span{
+width: 7%;
+height: 0.2vmax;
+border-radius: 5px;
+margin-top: 1vmax;
+
+background: linear-gradient(90deg, rgb(196, 115, 245) 25%, rgb(255, 134, 122) 75%);
+    }
+    .Identity .OurIdentity .IdentityTop .IdentityTopLeft p{
+          color: rgba(0, 0, 0, 0.642);
+          font-weight: 600;
+          margin-top: 2.5vmax;
+    }
+.Identity .OurIdentity .IdentityTop .IdentityTopRight{
+          width: 50%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: space-between;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One{
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          padding-top: 3vmax;
+          flex-direction: row;
+          justify-content: space-evenly;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One .OneLeft{
+          width: 40%;
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          justify-content: space-evenly;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One .OneLeft h5{
+         font-size: 3vmax;
+         font-weight: bolder;
+}
+
+
+.Identity .OurIdentity .IdentityBottom{
+          width: 80%;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+}
+.Identity .OurIdentity .IdentityBottom img{
+         width: 100%;
+         border-radius: 20px;
+         padding: 10px;
+}
+
+@media (max-width:600px) {
+      .Identity .OurIdentity .IdentityTop{
+            width: 100%;
+            flex-direction: column;
+  }
+  .Identity .OurIdentity .IdentityTop .IdentityTopLeft{
+      width: 100%;
+      padding: 2vmax;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft h3{
+  font-size:2vmax;   
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft h2{
+      font-size: 4vmax;   
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft span{
+width: 15%;
+height: 0.5vmax;
+}
+
+.Identity .OurIdentity .IdentityTop .IdentityTopRight{
+      width: 100%;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One{
+      padding-top: 0vmax;
+      margin-bottom: 2vmax;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One .OneLeft{
+      width: 40%;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One .OneLeft h5{
+     font-size: 5vmax;
+}
+.Identity .OurIdentity .IdentityBottom{
+      width: 100%;
+}
+.Identity .OurIdentity .IdentityBottom img{
+     width: 100%;
+}
+}
+
+
+@media (min-width:600px) and (max-width:950px) {
+      .Identity .OurIdentity .IdentityTop{
+            width: 100%;
+            flex-direction: column;
+  }
+  .Identity .OurIdentity .IdentityTop .IdentityTopLeft{
+      width: 100%;
+      padding: 2vmax;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft h3{
+  font-size:2vmax;   
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft h2{
+      font-size: 4vmax;   
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopLeft span{
+width: 15%;
+height: 0.5vmax;
+}
+
+.Identity .OurIdentity .IdentityTop .IdentityTopRight{
+      width: 100%;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One{
+      padding-top: 0vmax;
+      margin-bottom: 2vmax;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One .OneLeft{
+      width: 40%;
+}
+.Identity .OurIdentity .IdentityTop .IdentityTopRight .One .OneLeft h5{
+     font-size: 5vmax;
+}
+.Identity .OurIdentity .IdentityBottom{
+      width: 100%;
+}
+.Identity .OurIdentity .IdentityBottom img{
+     width: 100%;
+}
+
+
+}

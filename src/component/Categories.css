@@ -1,0 +1,122 @@
+.catecontent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 6vmax;
+}
+/* .catecontent h2{
+   font-size: 2.8vmax;
+   font-weight: 700;
+}
+.catecontent h6{
+    width: 40%;
+    font-size: 1.2vmax;
+    color: gray;
+} */
+.cateimage{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cateimage .catebox{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1vmax;
+    transition: 0.5s;
+    margin-left: 2vmax;
+    margin-top: 1vmax;
+    padding-left: 1vmax;
+    margin-bottom: 1vmax;
+    box-shadow: 0px 0px 15px 0px rgb(209, 207, 207);
+    
+    
+}
+.cateimage .catebox .cateicon{
+    font-size: 3.5vmax;
+    transition: 0.5s;
+    
+}
+.cateimage .catebox .catehtml{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1.8vmax;
+    
+}
+.cateimage .catebox .catehtml h5{
+    font-size: 1.3vmax;
+    transition: 0.5s;
+}
+.cateimage .catebox .catehtml .ri-arrow-drop-right-line{
+    font-size: 3.1vmax;
+    transform: translateY(-1vmax);
+    color: white;
+    transition: 0.5s;
+}
+.cateimage .catebox p{
+    font-size: 1.2vmax;
+    color: gray;
+    margin-top: -1.8vmax;
+    transition: 0.5s;
+}
+.cateimage .catebox:hover{
+    background-color: blue;
+}
+.cateimage .catebox:hover .cateicon i{
+    color: white;
+    z-index: 999;
+}
+.cateimage .catebox:hover h5{
+    color: white;
+}
+.cateimage .catebox:hover  p{
+    color: white;
+}
+
+@media (max-width:600px) {
+    .catecontent h2{
+       font-size: 5vmax;
+    }
+    .catecontent h6{
+        width: 90%;
+        font-size: 2.2vmax;
+    }
+    .cateimage{
+        align-items: center;
+    }
+    .cateimage .catebox{
+        width:45%;
+        margin-left: 0vmax;  
+    }
+    .cateimage .catebox .cateicon{
+        font-size: 6vmax;
+    }
+    .cateimage .catebox .catehtml h5{
+        font-size: 2.2vmax;
+    }
+    .cateimage .catebox .catehtml .ri-arrow-drop-right-line{
+        font-size: 4vmax;
+    }
+    .cateimage .catebox p{
+        font-size: 2vmax;
+        margin-top: -1vmax;
+    }
+}
+
+@media (min-width:600px) and (max-width:820px) {
+    .cateimage .catebox p{
+        font-size: 1.2vmax;
+        margin-top: 0vmax;
+    }
+    .cateimage .catebox .catehtml{
+        margin-top: -1vmax;
+        
+    } 
+}

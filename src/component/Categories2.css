@@ -1,0 +1,139 @@
+.home2top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.home2top h2{
+   font-size: 2.8vmax;
+   font-weight: 700;
+   margin-top: 5vmax;
+}
+.home2top h6{
+    width: 40%;
+    font-size: 1.2vmax;
+    color: gray;
+    margin-top: 1vmax;
+}
+.home2image{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 4vmax;
+}
+.home2image .home2dibba{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1vmax;
+    transition: 0.5s;
+    margin-left: 3vmax;
+    margin-right: 2vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+    /* box-shadow: 0px 0px 15px 0px rgb(209, 207, 207); */
+    
+    
+}
+.home2image .home2dibba .home2icon{
+    width: 60%;
+    height: 5.5vmax;
+    text-align: center;
+    background-color: rgb(205,207,219);
+    font-size: 3.5vmax;
+    transition: 0.5s;
+    border-radius: 0.8vmax;
+    
+}
+.home2image .home2dibba .home2icon i{
+    font-size: 1.7vmax;
+}
+.home2image .home2dibba  h5{
+    text-align: center;
+    font-size: 1.2vmax;
+    transition: 0.5s;
+    font-weight: 700;
+}
+.home2image .home2dibba p{
+    font-size: 1.2vmax;
+    color: gray;
+    transition: 0.5s;
+    
+}
+.home2image .home2dibba .home2icon:hover{
+    background-color:rgb(254,149,79);
+}
+
+.home2image .home2dibba:hover .home2icon i{
+    color: white;
+    z-index: 999;
+}
+.home2image .home2dibba:hover h5{
+    color:rgb(254,149,79);
+}
+
+
+@media (max-width:600px) {
+    .home2top h2{
+       font-size: 5vmax;
+    }
+    .home2top h6{
+        width: 90%;
+        font-size: 2.2vmax;
+    }
+    .home2image{
+        margin-top: 4vmax;
+        align-items: center;
+    }
+    .home2image .home2dibba{
+        width: 30%;  
+    }
+    .home2image .home2dibba .home2icon{
+        width: 70%;
+        height: 10vmax;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .home2image .home2dibba .home2icon i{
+        font-size: 3vmax;
+    }
+    .home2image .home2dibba  h5{
+        height: 3.5vmax;
+        font-size: 2vmax;
+    }
+    .home2image .home2dibba p{
+        font-size: 1.8vmax;
+        color: gray;
+    }
+    
+}
+
+@media (min-width:600px) and (max-width:820px) {
+    .home2image .home2dibba p{
+        font-size: 1.7vmax;
+        margin-top: 0vmax;
+    }
+    .home2image .home2dibba .home2icon i{
+        font-size: 3vmax;
+    }
+    .home2image .home2dibba{
+        width: 20%;  
+    }
+    .home2top h6{
+        width: 70%;
+        font-size: 2vmax;
+    }
+    .home2image .home2dibba  h5{
+        font-size: 2vmax;
+    }
+    
+}

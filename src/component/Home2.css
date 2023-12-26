@@ -1,0 +1,207 @@
+.home2main{
+    width: 100%;
+    padding-top: 7vmax;
+    margin-bottom: 5vmax;
+    
+}
+.home2main .start{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home2main .start h1{
+    width: 50%;
+    text-align: center;
+    font-size: 3.7vmax;
+    font-weight: 700;
+    color: rgb(30,41,59);
+}
+.home2main .start h1 span{
+    color: rgb(254,149,79);
+}
+.home2main .start p{
+    color: rgb(123, 119, 119);
+    margin-top: 1vmax;
+    font-size: 1.2vmax;
+}
+.home2main .start .home2search{
+    width: 90%;
+    text-align: center;
+    margin-left: 9vmax;
+    margin-top: 1.5vmax;
+    
+}
+.home2main .start .home2search input{
+    width: 55%;
+    height: 5.5vmax;
+    border-radius: 3vmax;
+    border: 1px solid rgb(221, 221, 221);
+}
+.home2main .start .home2search input::placeholder{
+    padding-left: 1.5vmax;
+}
+
+.home2main .start .home2search button{
+   border: none;
+   padding: 1vmax 2vmax;
+   border-radius: 2vmax;
+   background-color: rgb(254,149,79);
+   color: white;
+   transform: translateX(-10vmax);
+   font-weight: 700;
+}
+.home2main .home2boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vmax;
+}
+.home2main .home2boxes .home2box{
+    width: 20%;
+    height: 26vmax;
+    
+}
+.home2main .home2boxes .home2box .banner2{
+    margin-top: 5vmax;
+}
+.home2main .home2boxes .home2box img{
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+.home2main .home2boxes .home2box img:hover{
+    transform: translateY(-1vmax);
+    cursor: pointer;
+}
+.home2main .black{
+    width: 100%;
+    background-color: black;
+    margin-top: 15vmax;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3vmax 0vmax;
+}
+.home2main .black .blackleft{
+    width: 20%;
+}
+.home2main .black .blackleft h4{
+  font-size: 2.4vmax;
+  font-weight: 700;
+  color: white;
+}
+.home2main .black .blackleft h4 span{
+     color: rgb(254,149,79);
+}
+.home2main .black .blackright{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.home2main .black .blackright .blackcontant{
+    width: 30%;
+}
+.home2main .black .blackright .blackrightbox{
+    width: 28%;
+    height: 5vmax;
+    background-color: rgb(245,116,153);
+    border-radius: 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home2main .black .blackright img{
+    width: 3vmax;
+   
+}
+.home2main .black .blackright h6{
+    color: white;
+    margin-top: 1vmax;
+    font-size: 1.3vmax;
+}
+.home2main .black .blackright p{
+    color: rgb(228, 228, 228);
+    font-size: 1.2vmax;
+}
+
+
+
+@media (max-width:600px) {
+    .home2main{
+        width: 100%;
+        padding-top: 15vmax;
+        margin-bottom: 5vmax;
+        
+    }
+    .home2main .start h1{
+        width: 90%;
+    }
+    .home2main .start p{
+        width: 90%;
+        text-align: center;
+    }
+    .home2main .start .home2search{
+        width: 100%;
+        margin-left: 0vmax;
+        
+    }
+    .home2main .start .home2search input{
+        width: 60%;
+    }
+    .home2main .start .home2search button{
+       transform: translateX(-0vmax);
+    }
+    .home2main .home2boxes{
+        flex-direction: column;
+    }
+    .home2main .home2boxes .home2box{
+        width: 80%;
+        height: 45vmax;
+        margin-top: 4vmax;
+        
+    }
+    .home2main .home2boxes .home2box .banner2{
+        margin-top: 0vmax;
+    }
+    .home2main .black{
+        margin-top: 10vmax;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home2main .black .blackleft{
+        width: 80%;
+    }
+    .home2main .black .blackleft h4{
+      font-size: 3vmax;
+    }
+    .home2main .black .blackright{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .home2main .black .blackright .blackcontant{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4vmax;
+    }
+    .home2main .black .blackright .blackrightbox{
+        width: 40%;
+        height: 14vmax;
+    }
+    .home2main .black .blackright img{
+        width: 8vmax;
+       
+    }
+    .home2main .black .blackright h6{
+        font-size: 2.5vmax;
+    }
+    .home2main .black .blackright p{
+        font-size: 2vmax;
+    }
+}

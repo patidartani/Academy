@@ -1,0 +1,398 @@
+.AllCourses{
+          width: 100%;
+          height: auto;
+}
+.AllCourses .Courses{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+} 
+.AllCourses .Courses .CoursesRight{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column;
+} 
+.AllCourses .Courses .CoursesRight .CousesRightTop{
+          width: 95%;
+          margin-top: 3vmax;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+}
+.AllCourses .Courses .CoursesRight .CousesRightTop .left{
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+}
+.AllCourses .Courses .CoursesRight .CousesRightTop .left .icons{
+          width: 100%;
+          height: auto;
+          display: flex;
+          position: relative; 
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+       
+}
+.AllCourses .Courses .CoursesRight .CousesRightTop .left .icons i{
+         background-color: rgb(62, 107, 255);
+         padding: 0.2vmax 0.6vmax;
+         margin: 0vmax 0.1vmax;
+         font-weight: bold;
+         cursor: pointer;
+         font-size: 1.2vmax;
+         border-radius: 2px;
+         color: #fff;
+         transition: 0.5s;
+}
+/* ------------------ */
+.tooltip {
+       visibility: hidden;
+       width: 70px;
+       background-color: #000;
+       color: #fff;
+       text-align: center;
+       border-radius: 5px;
+       padding: 5px;
+       position: absolute;
+       top: -35px; /* Adjust the top position as needed */
+       left: 50%;
+       transform: translateX(-50%);
+       opacity: 0;
+       transition: opacity 0.3s;
+     }
+     
+     .AllCourses .Courses .CoursesRight .CousesRightTop .left .icons i:hover .tooltip {
+       visibility: visible;
+       opacity: 1;
+     }
+     .AllCourses .Courses .CoursesRight .CousesRightTop .left .icons i:hover{
+       transform: translateY(-0.5vmax);
+     }
+/* ----------------------- */
+.AllCourses .Courses .CoursesRight .CousesRightTop .right {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.AllCourses .Courses .CoursesRight .CousesRightTop .right .dropdown button{
+         background: none;
+         border: 1px solid #925d5d50;
+         border-radius: 2px;
+         padding: 0.3vmax 1vmax;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+}
+.AllCourses .Courses .CoursesRight .CourseContent{
+          width: 100%;
+          margin-top: 2vmax;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+} 
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox{
+          width: 80%;
+          position: relative;
+          height: auto;
+          margin-top: 1vmax;
+          display: flex;
+          box-shadow: 2px 2px 5px 2px  rgba(128, 128, 128, 0.084);
+          border: 1px solid #0000000e;
+          border-radius: 10px;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: row;
+} 
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT{
+          width: 30%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+          position: relative;
+} 
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT img{
+          width: 100%;
+          height: auto;
+          display: block;
+} 
+/* ----------- */
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT .like-icon i {
+       color: rgba(50, 50, 50, 0.687);
+       font-size: 1.2vmax;
+       position: absolute;
+       right: 0;
+       background: #fff;
+       border-radius: 50%;
+       padding: 0vmax 0.3vmax;
+       top: 0;
+       z-index: 2;
+       margin-top: 1vmax;
+       margin-right: 1vmax;
+       cursor: pointer;
+     }
+     .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT .button {
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       color:rgba(95, 0, 0, 0.756);
+       z-index: 2;
+       font-size: 0.8vmax;
+       margin-bottom: 1vmax;
+       margin-right: 1vmax;
+       background-color: rgba(232, 232, 232, 0.973);
+       padding: 5px;
+       border-radius: 0 0 10px 0;
+     }
+
+/* ---------------- */
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT{
+          width: 70%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+} 
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top{
+            width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0vmax 1vmax;
+          flex-direction: row;
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .le h3{
+       font-size: 1vmax;   
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .le p{
+       color: #0000009a;  
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .le p i{
+       color: rgb(186, 186, 186);
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .ri button{
+              background-color: rgb(59, 59, 255);
+              border: none;
+              font-size: 0.8vmax;
+              border-radius: 3px;
+              color: #fff;
+              padding: 0.4vmax 0.4vmax;
+   }  
+   .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .ri button img{
+       width: 20%;  
+}  
+   .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .medium {
+            width: 100%;
+            padding: 0vmax 1vmax;
+          color: #0000008f;
+           font-size: 0.9vmax;
+}      
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .bottom{
+          width: 100%;
+          margin-top: 1vmax;
+          border-top: 1px solid #00000048;
+          display: flex;
+          padding: 0vmax 1vmax;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .bottom .lef{
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          flex-direction: row;
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .bottom .lef h1{
+       font-size: 1vmax;
+       color: rgba(98, 59, 59, 0.687);
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .bottom .righ{
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          flex-direction: row;
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .bottom .righ p{
+         padding: 0vmax 0.5vmax;
+         color: rgba(78, 78, 78, 0.879);
+}
+.AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .bottom .righ p i{
+    color: blue;
+}
+
+/* ----------------------pagination-------------- */
+
+.pagination {
+       margin-top: 20px;
+       text-align: center;
+     }
+     
+     .pagination button {
+       background-color: #fff;
+       border: 1px solid #ccc;
+       color: #333;
+       cursor: pointer;
+       margin: 0 5px;
+       padding: 5px 10px;
+       border-radius: 5px;
+       transition: background-color 0.3s, color 0.3s;
+     }
+     
+     /* Active page button */
+     .pagination button.active {
+       background-color: #007bff;
+       color: #fff;
+       border: 1px solid #007bff;
+     }
+     
+     /* Hover effect on pagination buttons */
+     .pagination button:hover {
+       background-color: #007bff;
+       color: #fff;
+       border: 1px solid #007bff;
+     }
+
+     
+/* ---------------------mediaquerry------------ */
+
+
+@media (max-width:600px) {
+       .AllCourses .Courses .CoursesRight{
+              width: 90%;
+       } 
+       .AllCourses .Courses .CoursesRight .CousesRightTop{
+              width: 100%;
+              flex-direction: row;
+       }
+       
+       .AllCourses .Courses .CoursesRight .CousesRightTop .left .icons i{
+             font-size: 2vmax;
+       }
+       .AllCourses .Courses .CoursesRight .CousesRightTop .left .icons p{
+              font-size: 1.5vmax;
+        }
+       
+       .AllCourses .Courses .CoursesRight .CousesRightTop .right .dropdown button{
+             padding: 0.2vmax 0.6vmax;
+             font-size: 2vmax;
+       }
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox{
+              width: 90%;
+              align-items: center;
+              justify-content:center;
+              flex-direction: column;
+       } 
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT{
+              width: 100%;
+       } 
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT img{
+              width: 100%;
+       } 
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT .like-icon i {
+              font-size: 3vmax;
+              padding: 0.3vmax 1vmax;
+            }
+            .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT .button {
+              font-size: 2vmax;
+            }
+       
+       
+            .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT{
+              width: 100%;
+       } 
+       
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .le h3{
+           font-size: 1.7vmax;   
+       }
+       
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .ri button{
+                  font-size: 1.1vmax;
+       }  
+        
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .medium {
+             font-size: 1.5vmax;
+       }   
+    .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .bottom .lef h1{
+           font-size: 2vmax;
+    } 
+}
+
+
+@media (min-width:600px) and (max-width:950px) {
+       .AllCourses .Courses .CoursesRight{
+              width: 90%;
+       } 
+       .AllCourses .Courses .CoursesRight .CousesRightTop{
+              width: 100%;
+              flex-direction: row;
+       }
+       
+       .AllCourses .Courses .CoursesRight .CousesRightTop .left .icons i{
+             font-size: 2vmax;
+       }
+       .AllCourses .Courses .CoursesRight .CousesRightTop .left .icons p{
+              font-size: 1.5vmax;
+        }
+       
+       .AllCourses .Courses .CoursesRight .CousesRightTop .right .dropdown button{
+             padding: 0.2vmax 0.6vmax;
+             font-size: 2vmax;
+       }
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox{
+              width: 90%;
+              align-items: center;
+              justify-content:center;
+              flex-direction: column;
+       } 
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT{
+              width: 100%;
+       } 
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT img{
+              width: 100%;
+       } 
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT .like-icon i {
+              font-size: 3vmax;
+              padding: 0.3vmax 1vmax;
+            }
+            .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT .button {
+              font-size: 2vmax;
+            }
+       
+       
+            .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT{
+              width: 100%;
+       } 
+       
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .le h3{
+           font-size: 1.7vmax;   
+       }
+       
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .top .ri button{
+                  font-size: 1.1vmax;
+       }  
+        
+       .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .medium {
+             font-size: 1.8vmax;
+       }   
+    .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT .bottom .lef h1{
+           font-size: 2vmax;
+    } 
+}

@@ -1,0 +1,10 @@
+.container-fluid img{
+    margin-left: 3vmax;
+}
+
+
+@media (max-width:600px) {
+    .container-fluid img{
+        width: 60%;
+    }
+}

@@ -1,0 +1,147 @@
+.home4instmain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7vmax;
+
+}
+.home4instmain .homae4instleft{
+    width: 25%;
+    padding-top: 3vmax;
+}
+.home4instmain .homae4instleft h5{
+    letter-spacing: 0.2vmax;
+    font-size: 1.2vmax;
+    color: rgb(255,88,175);
+}
+.home4instmain .homae4instleft h2{
+    font-weight: 700;
+    font-size: 2.3vmax;
+}
+.home4instmain .homae4instleft .linear{
+    width: 8%;
+    height: 0.2vmax;
+    background: linear-gradient(90deg, #c473f5 25%, #ff867a 75%);
+    border-radius: 2vmax;
+    margin-top: 2vmax;
+}
+.home4instmain .homae4instleft p{
+    width: 100%;
+    color: gray;
+    font-size: 1.2vmax;
+    margin-top: 1.5vmax;
+}
+.home4instmain .homae4instright{
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+.home4instmain .homae4instright img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1vmax;
+    z-index: -1;
+    position: absolute;
+}
+.home4instmain .homae4instright .overlay{
+    width: 45%;
+    height: 25vmax;
+    position: relative;
+    transition: 0.5s;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.home4instmain .homae4instright .overlay h4{
+    transform: translateY(3vmax);
+    transition: 0.5s;
+    opacity: 0;
+    color: white;
+    font-size: 1.3vmax;
+    
+}
+.home4instmain .homae4instright .overlay .home4line{
+    width: 10%;
+    height: 0.1vmax;
+    background-color: rgb(241, 78, 133);
+    opacity: 0;
+    transform: translateY(3vmax);
+    transition: 0.5s;
+}
+.home4instmain .homae4instright .overlay .home4imsticon{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 1vmax;
+    font-size: 1.2vmax;
+    opacity: 0;
+    transform: translateY(3vmax);
+    transition: 0.5s;
+}
+.home4instmain .homae4instright .overlay:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.home4instmain .homae4instright .overlay:hover h4{
+    transform: translateY(0vmax);
+    opacity: 1;
+}
+.home4instmain .homae4instright .overlay:hover .home4line{
+    transform: translateY(0vmax);
+    opacity: 1;
+}
+.home4instmain .homae4instright .overlay:hover .home4imsticon{
+    transform: translateY(0vmax);
+    opacity: 1;
+    margin-bottom: 2vmax;
+}
+
+
+
+@media (max-width:600px) {
+    .home4instmain{
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .home4instmain .homae4instleft{
+        width: 80%;
+    }
+    .home4instmain .homae4instleft h5{
+        font-size: 2.3vmax;
+    }
+    .home4instmain .homae4instleft h2{
+        font-size: 3.5vmax;
+    }
+    .home4instmain .homae4instleft .linear{
+        width: 10%;
+    }
+    .home4instmain .homae4instleft p{
+        font-size: 2vmax;
+    }
+    .home4instmain .homae4instright{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .home4instmain .homae4instright .overlay{
+        width: 80%;
+        height: 40vmax;
+        margin-top: 2vmax;
+        
+    }
+    .home4instmain .homae4instright .overlay h4{
+        font-size: 2.5vmax;
+        
+    }
+    .home4instmain .homae4instright .overlay .home4imsticon{
+        width: 50%;
+        font-size: 2.5vmax;
+    }
+    
+}

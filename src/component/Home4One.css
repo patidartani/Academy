@@ -1,0 +1,212 @@
+.Home-4Main{
+          width: 100%;
+          padding-top: 9vmax;
+}
+.Home-4Main .Home4{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.Home-4Main .Home4 .Home-4Left{
+          width: 70%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+}
+
+.Home-4Main .Home4 .Home-4Left img{
+         position: absolute;
+         left: 38vmax;
+         top: 2vmax;
+         width:50% ;
+         bottom: 10vmax;
+}
+
+.Home-4Main .Home4 .Home-4Left .Home-4Top{
+          width: 100%;
+}
+.Home-4Main .Home4 .Home-4Left .Home-4Top .start{
+          display: flex;
+          width: 100%;
+          position: relative;
+          font-size: 3vmax;
+          font-weight: bolder;
+          align-items:center;
+          justify-content: flex-start;
+  }
+.Home-4Main .Home4 .Home-4Left .Home-4Top .start img{
+          width: 3%;
+          margin-top: 2vmax;
+   }
+ .Home-4Main .Home4 .Home-4Left .Home-4Top .start span{
+           font-size: 3vmax;
+           font-weight: bold;
+           margin-left: 1vmax;
+   }
+.Home-4Main .Home4 .Home-4Left .Home-4Top h3{
+        display: flex;
+        width: 100%;
+        position: relative;
+        font-size: 3vmax;
+        font-weight: bolder;
+        align-items:center;
+        justify-content: flex-start;
+}
+
+  .Home-4Main .Home4 .Home-4Left .Home-4Top h3 span{
+          color: rgb(228, 122, 158);
+          font-size: 3.5vmax;
+  }
+  .Home-4Main .Home4 .Home-4Left .Home-4Top h1{
+          font-size: 7vmax;
+          width: 40%;
+          font-weight: bolder;
+          position: relative;
+  }
+  .Home-4Main .Home4 .Home-4Left .Home-4Top h1::before{
+          content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    max-height: 50px;
+    background: linear-gradient(90deg, rgb(204, 123, 255) -4.24%, rgb(255, 200, 135) 113.04%);
+    filter: blur(15px);
+    z-index: -1;
+  }
+
+  .Home-4Main .Home4 .Home-4Left .Home-4Medium{
+          width: 100%;
+          display: flex;
+          margin-top: 2vmax;
+          align-items: center;
+          justify-content: flex-start;
+}
+.Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt{
+          width: 50%;
+          display: flex;
+          position: relative;
+          align-items: center;
+          justify-content: flex-start;
+}
+.Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt input{
+          width: 100%;
+          padding: 0.9vmax 1vmax;
+}
+.Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt button{
+          position: absolute;
+          right: 1vmax;
+          border: none;
+          padding: 0.5vmax 1vmax;
+          border-radius: 3px;
+          color: #fff;
+          background-color: rgb(123, 123, 255);
+}
+
+
+@media (max-width:600px) {
+       
+.Home-4Main .Home4 .Home-4Left{
+          width: 90%;
+          align-items: center;
+}
+.Home-4Main .Home4 .Home-4Left img{
+        display: none;
+}
+ .Home-4Main .Home4 .Home-4Left .Home-4Top .start span{
+           font-size: 7vmax;
+           margin-left: 5vmax;
+   }
+   .Home-4Main .Home4 .Home-4Left .Home-4Top h3{
+          flex-direction: column;
+          align-items: flex-start;
+  }  
+    .Home-4Main .Home4 .Home-4Left .Home-4Top h3 span{
+            font-size: 7vmax;
+            font-weight: 800;
+    }
+    .Home-4Main .Home4 .Home-4Left .Home-4Top h3 h2{
+          font-size: 7.5vmax;
+  }
+  .Home-4Main .Home4 .Home-4Left .Home-4Top h1{
+          font-size: 10vmax;
+  }
+  .Home-4Main .Home4 .Home-4Left .Home-4Top h1::before{
+    width: 250%;
+    height: 100%;
+  }
+
+  .Home-4Main .Home4 .Home-4Left .Home-4Medium{
+          justify-content:center;
+}
+.Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt{
+          width: 100%;
+          justify-content: center;
+}
+.Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt input{
+          width: 100%;
+          padding: 1.5vmax 1vmax;
+}
+.Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt button{
+          padding: 0.7vmax 1.5vmax;
+}
+}
+
+
+@media (min-width:600px) and (max-width:950px) {
+       
+          .Home-4Main .Home4 .Home-4Left{
+                    width: 90%;
+                    align-items: center;
+          }
+          .Home-4Main .Home4 .Home-4Left img{
+                  display: none;
+          }
+           .Home-4Main .Home4 .Home-4Left .Home-4Top .start span{
+                     font-size: 7vmax;
+                     margin-left: 5vmax;
+             }
+             .Home-4Main .Home4 .Home-4Left .Home-4Top h3{
+                    flex-direction: column;
+                    align-items: flex-start;
+            }  
+              .Home-4Main .Home4 .Home-4Left .Home-4Top h3 span{
+                      font-size: 7vmax;
+                      font-weight: 800;
+              }
+              .Home-4Main .Home4 .Home-4Left .Home-4Top h3 h2{
+                    font-size: 7.5vmax;
+            }
+            .Home-4Main .Home4 .Home-4Left .Home-4Top h1{
+                    font-size: 10vmax;
+            }
+            .Home-4Main .Home4 .Home-4Left .Home-4Top h1::before{
+              width: 160%;
+              height: 100%;
+            }
+          
+            .Home-4Main .Home4 .Home-4Left .Home-4Medium{
+                    justify-content:center;
+          }
+          .Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt{
+                    width: 100%;
+                    justify-content: center;
+          }
+          .Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt input{
+                    width: 100%;
+                    padding: 1.5vmax 1vmax;
+          }
+          .Home-4Main .Home4 .Home-4Left .Home-4Medium .ipt button{
+                    padding: 0.7vmax 1.5vmax;
+          }
+           
+          }
+          @media (min-width:950px) and (max-width:1500px) {
+                    .Home-4Main .Home4 .Home-4Left img{
+                              display: none;
+                      }    
+          }

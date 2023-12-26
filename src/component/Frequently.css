@@ -1,0 +1,119 @@
+.freqmain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vmax;
+    
+}
+.freqmain h3{
+   font-size: 2.9vmax;
+   font-weight: 700;
+}
+.freqmain h5{
+    color: gray;
+    font-size: 1.2vmax;
+    margin-top: 1vmax;
+}
+.freqcontainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    margin-top: 3vmax;
+    margin-left: 10vmax;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(201, 196, 196);
+    padding: 5px 10px 30px 10px;
+  }
+  
+  .heading {
+    margin: 0;
+  }
+  
+  .icon {
+    cursor: pointer;
+    color: gray;
+    font-size: 2vmax;
+  }
+  
+  .content {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+  }
+  .freqbutton button{
+    width: 14%;
+    background-color: rgb(117,79,254);
+    border: none;
+    padding: 0.8vmax 0vmax;
+    border-radius: 0.5vmax;
+    margin-top: 1vmax;
+    color: white;
+    font-size: 1.3vmax;
+  }
+
+  @media (max-width:600px) {
+    .freqmain h3{
+        width: 80%;
+        text-align: center;
+       font-size: 3.5vmax;
+    }
+    .freqmain h5{
+        width: 90%;
+        text-align: center;
+        font-size: 2vmax;
+        margin-top: 1vmax;
+    }
+    .freqcontainer {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 80%;
+        margin-top: 3vmax;
+        margin-left: 5vmax;
+      }
+      
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgb(201, 196, 196);
+        padding: 5px 10px 30px 10px;
+      }
+      
+      .heading {
+        margin: 0;
+      }
+      
+      .icon {
+        cursor: pointer;
+        color: gray;
+        font-size: 2vmax;
+      }
+      
+      .content {
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        display: block;
+      }
+      .freqbutton button{
+        width: 45%;
+        background-color: rgb(117,79,254);
+        border: none;
+        padding: 1.5vmax 0vmax;
+        border-radius: 0.5vmax;
+        margin-top: 1vmax;
+        color: white;
+        font-size: 2.4vmax;
+      }
+  }
+  

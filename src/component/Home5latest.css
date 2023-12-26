@@ -1,0 +1,76 @@
+.home5main{
+    width: 100%;
+    margin-top: 7vmax;
+}
+.home5main .home5content{
+    width: 100%;
+    text-align: center;
+}
+.home5main .home5content h3{
+    font-weight: 700;
+    font-size: 2.6vmax;
+}
+.home5main .home5content p{
+    color: gray;
+    font-size: 1.2vmax;
+    margin-top: 1.5vmax;
+}
+.home5boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vmax;
+}
+.home5boxes .home5box{
+    width: 25%;
+    cursor: pointer;
+}
+.home5boxes .home5box h6{
+    color: gray;
+    font-size: 0.9vmax;
+}
+.home5boxes .home5box h5{
+    font-size: 1.4vmax;
+}
+.home5boxes .home5box p{
+    color: gray;
+    font-size: 1.1vmax;
+    margin-top: 1vmax;
+    line-height: 2vmax;
+}
+.home5boxes .home5box i{
+    font-size: 1.8vmax;
+    color:rgb(114,145,255);
+}
+
+
+
+@media (max-width:600px) {
+    .home5main .home5content h3{
+        font-size: 3.5vmax;
+    }
+    .home5main .home5content p{
+        font-size: 1.9vmax;
+    }
+    .home5boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .home5boxes .home5box{
+        width: 80%;
+        margin-top: 3vmax;
+    }
+    .home5boxes .home5box h6{
+        font-size: 1.7vmax;
+    }
+    .home5boxes .home5box h5{
+        font-size: 2.2vmax;
+    }
+    .home5boxes .home5box p{
+        font-size: 1.8vmax;
+        line-height: 3vmax;
+    }
+    .home5boxes .home5box i{
+        font-size: 3.5vmax;
+    }
+}

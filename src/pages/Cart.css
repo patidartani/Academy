@@ -1,0 +1,242 @@
+.cartmain{
+    width: 100%;
+}
+.cartmain .cartfisrt{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cartmain .cartfisrt .cartleft{
+    width: 60%;
+}
+.cartmain .cartfisrt .cartleft h4{
+    font-size: 2.3vmax;
+    color: rgb(103,108,125);
+    font-weight: 700;
+}
+.cartmain .cartfisrt .cartleft .cartdis{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.cartmain .cartfisrt .cartleft .cartdis h6{
+    color: rgb(30,41,147);
+    margin-top: 2vmax;
+}
+
+.cartmain .cartfisrt .cartleft .cartline{
+ width: 100%;
+ height: 0.1vmax;
+ background-color: rgb(216, 215, 215);
+ margin-top: 0.5vmax;
+}
+.cartmain .cartfisrt .cartright{
+    width: 20%;
+    border-radius: 0.5vmax;
+    box-shadow: 3px 4px 20px rgb(212, 212, 212);
+    margin-top: 7vmax;
+    background-color: rgb(248,247,255);
+}
+.cartmain .cartfisrt .cartright h6{
+    font-size: 1.6vmax;
+    color: rgb(103,108,125);
+    margin-left: 1vmax;
+    margin-bottom: 1vmax;
+   margin-top: 1vmax;
+   
+}
+.cartmain .cartfisrt .cartright .cartdol{
+    width: 79%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.5vmax;
+    margin-right: 1.5vmax;
+    
+    
+}
+.cartmain .cartfisrt .cartright .cartdol p{
+    width: 70%;
+    color: rgb(150,108,125);
+}
+.cartmain .cartfisrt .cartright .cartdol h6{
+    width: 20%;
+    font-size: 1.2vmax;
+    font-weight: 700;
+    color: rgb(150,108,125);
+    margin-top: -0.5vmax;
+}
+.cartmain .cartfisrt .cartright input{
+    border: 1px solid rgb(226, 226, 228);
+    padding: 0.5vmax 0vmax;
+    border-top-left-radius: 0.4vmax;
+    border-bottom-left-radius: 0.4vmax;
+    margin-top: 0.2vmax;
+    margin-left: 1.2vmax;
+}
+.cartmain .cartfisrt .cartright input::placeholder{
+    font-size: 1.1vmax;
+    padding-left: 0.7vmax;
+    color: rgb(150,108,125);
+}
+.cartmain .cartfisrt .cartright button{
+    background-color: rgb(117,79,254);
+    padding: 0.5vmax 0.6vmax;
+    color: white;
+    font-size: 1.2vmax;
+    border-top-right-radius: 0.4vmax;
+    border-bottom-right-radius: 0.4vmax;
+    border: 1px solid rgb(117,79,254);
+    transform: translateX(-2vmax);
+}
+.cartmain .cartfisrt .cartright .check{
+    display: flex;
+    margin-left: 1vmax;
+}
+.cartmain .cartfisrt .cartright .check input{
+    margin-top: -0.1vmax;
+}
+.cartmain .cartfisrt .cartright .check p{
+    margin-top: 1vmax;
+    margin-left: 1vmax ;
+    color: rgb(150,108,125);
+}
+.cartemail input{
+    border-radius: 0.4vmax;
+   width: 78%;
+}
+.cartmain .cartfisrt .cartright .cartbutton button{
+    background-color:  rgb(117,79,254);
+    color: white;
+    padding: 0.6vmax 2.1vmax;
+    font-size: 1.2vmax;
+    margin-left: 3.2vmax;
+    border-radius: 0.5vmax;
+    margin-top: 1.5vmax;
+    margin-bottom: 2vmax;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .cartmain .cartfisrt{
+        align-items: center;
+        flex-direction: column;
+    }
+    .cartmain .cartfisrt .cartleft{
+        width: 80%;
+    }
+    .cartmain .cartfisrt .cartleft h4{
+        font-size: 3vmax;
+    }
+    .cartmain .cartfisrt .cartleft .cartdis{
+        width: 60%;
+    }
+
+    .cartmain .cartfisrt .cartright{
+        width: 80%;
+    }
+    .cartmain .cartfisrt .cartright h6{
+        font-size: 2.5vmax;
+        margin-left: 2vmax;
+       
+    }
+    .cartmain .cartfisrt .cartright .cartdol{
+        width: 80%;
+        margin-left: 2vmax;
+        
+        
+    }
+    .cartmain .cartfisrt .cartright .cartdol h6{
+        width: 20%;
+        font-size: 1.8vmax;
+        margin-top: -1vmax;
+    }
+    .cartmain .cartfisrt .cartright input{
+        padding: 0.5vmax 0vmax;
+    }
+    .cartmain .cartfisrt .cartright input::placeholder{
+        font-size: 1.7vmax;
+        padding-left: 1vmax;
+    }
+    .cartmain .cartfisrt .cartright button{
+        padding: 1.2vmax 1vmax;
+        font-size: 1.5vmax;
+        transform: translateX(-0vmax);
+        transform: translateY(-0.2vmax);
+    }
+    .cartmain .cartfisrt .cartright .check input{
+        margin-top: -1vmax;
+    }
+    .cartmain .cartfisrt .cartright .cartbutton button{
+        padding: 1vmax 7vmax;
+        font-size: 1.7vmax;
+        margin-left: 1.5vmax;
+        margin-top: 2vmax;
+    }
+}
+
+
+
+@media (min-width:600px) and (max-width:950px) {
+    .cartmain .cartfisrt{
+        align-items: center;
+        flex-direction: column;
+    }
+    .cartmain .cartfisrt .cartleft{
+        width: 80%;
+    }
+    .cartmain .cartfisrt .cartleft h4{
+        font-size: 3vmax;
+    }
+    .cartmain .cartfisrt .cartleft .cartdis{
+        width: 60%;
+    }
+    .cartmain .cartfisrt .cartright{
+        width: 80%;
+    }
+    .cartmain .cartfisrt .cartright h6{
+        font-size: 2.5vmax;
+        margin-left: 2vmax;
+       
+    }
+    .cartmain .cartfisrt .cartright .cartdol{
+        width: 80%;
+        margin-left: 2vmax;
+        
+        
+    }
+    .cartmain .cartfisrt .cartright .cartdol h6{
+        width: 20%;
+        font-size: 1.8vmax;
+        margin-top: -1vmax;
+    }
+    .cartmain .cartfisrt .cartright input{
+        padding: 1.2vmax 7vmax;
+    }
+    .cartmain .cartfisrt .cartright input::placeholder{
+        font-size: 1.6vmax;
+        padding-left: 1vmax;
+    }
+    .cartmain .cartfisrt .cartright button{
+        padding: 1.2vmax 2vmax;
+        font-size: 1.5vmax;
+        transform: translateX(-0vmax);
+        transform: translateY(0vmax);
+    }
+    .cartmain .cartfisrt .cartright .check input{
+        margin-top: -1vmax;
+    }
+    .cartemail input{
+       width: 69%;
+    }
+    .cartmain .cartfisrt .cartright .cartbutton button{
+        padding: 1vmax 11vmax;
+        font-size: 1.7vmax;
+        margin-left: 1.5vmax;
+        margin-top: 2vmax;
+    }
+}

@@ -1,0 +1,337 @@
+.LogIn{
+          width: 100%;
+          height: auto;
+          padding-top: 7vmax;
+          margin-bottom: 3vmax;
+}
+.LogIn .log{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+}
+.LogIn .log .logLeft{
+          width: 50%;
+          height: auto;
+          display: flex;
+          align-items: flex-end;
+          justify-content:flex-end;
+  }
+  .LogIn .log .logLeft img{
+          width: 50%;
+          height: auto;
+          margin-right: 5vmax;
+  }
+  .LogIn .log .logRight{
+          width: 45%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.LogIn .log .logRight .logTop{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.LogIn .log .logRight .logTop h3{
+          font-size: 2vmax;
+          color: rgba(27, 27, 27, 0.806);
+          font-weight: bolder;
+}
+.LogIn .log .logRight .logTop h3 span{
+color: rgb(74, 74, 255);
+}
+.LogIn .log .logRight .logTop p{
+          color: rgba(27, 27, 27, 0.68);
+}
+
+.LogIn .log .logRight .logMedium{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.LogIn .log .logRight .logMedium form{
+         width: 60%;
+}
+.LogIn .log .logRight .one{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+          margin-top: 1.3vmax;
+}
+
+.LogIn .log .logRight .one label{
+          color: rgba(27, 27, 27, 0.669);
+          font-weight: 600;
+          font-size: 1.1vmax;
+}
+.LogIn .log .logRight .one .int{
+         display: flex;
+         width: 100%;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-direction: row;
+         position: relative;
+}
+.LogIn .log .logRight .one .int i{
+           position: absolute;
+           margin-right: 24vmax;
+           color: rgba(27, 27, 27, 0.575);
+           font-size: 1.3vmax;
+           margin-top: 1vmax;
+          }
+
+.LogIn .log .logRight .one .int input{
+          width: 100%;
+          margin-top: 0.8vmax;
+          border: none;
+          background-color: #9e9e9e3b;
+          padding: 0.7vmax 2.5vmax;
+          border-radius: 5px;
+}
+.LogIn .log .logRight .forgot {
+        width: 100%;
+        text-align: end;
+}
+.LogIn .log .logRight .forgot a{
+        text-decoration: none;
+        color: rgba(27, 27, 27, 0.575);
+}
+.LogIn .log .logRight .one button{
+        width: 100%;
+        margin-top: 0.8vmax;
+        border: none;
+        background-color: #3c52fdef;
+        border-radius: 5px;
+        color: #fff;
+        padding: 0.7vmax 0vmax;
+        transition: 0.5s;
+
+}
+.LogIn .log .logRight .one button:hover{
+        transform: translateY(-0.5vmax);
+
+}
+.LogIn .log .logRight .logBottom{
+        width: 100%;
+        height: auto;
+        margin-top: 1vmax;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+}
+.LogIn .log .logRight .logBottom .btm{
+        width: 60%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+.LogIn .log .logRight .logBottom .btm h3{
+        color: rgba(0, 0, 0, 0.737);
+     font-size: 1.2vmax;
+}
+.LogIn .log .logRight .logBottom .btm .btns button{
+       margin: 0.5vmax;
+       border: none;
+       background-color: #3c52fdef;
+       border-radius: 5px;
+       color: #fff;
+       padding: 0.3vmax 1vmax;
+       transition: 0.5s;
+}
+.LogIn .log .logRight .logBottom .btm .btns button:hover{
+       transform: translateY(-0.4vmax);
+ }
+ .LogIn .log .logRight .logBottom .btm p { 
+       margin-top: 1vmax;
+ }
+ .LogIn .log .logRight .logBottom .btm p a{ 
+       text-decoration: none;
+}
+
+.LogIn .log .logRight .logBottom .btm button{
+        margin-top: 0.8vmax;
+        border: none;
+        background-color: #3c52fdef;
+        border-radius: 5px;
+        color: #fff;
+        padding: 0.3vmax 1vmax;
+}
+.LogIn .log .logRight .logBottom .btm button i{
+      font-size: 1.5vmax;
+}
+
+
+
+
+@media (max-width:600px) {
+        .LogIn .log{
+                  flex-direction: column;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+          }
+          .LogIn .log .logLeft{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+            }    
+            .LogIn .log .logLeft img{
+                  margin-right: 0vmax;
+                  width: 70%;
+          }  
+          .LogIn .log .logRight{
+                  width: 90%;
+        }
+        .LogIn .log .logRight .logTop{
+         margin-top: 4vmax;
+        }
+        .LogIn .log .logRight .logTop h3{
+                  font-size: 4vmax;
+        }
+        .LogIn .log .logRight .logTop p{
+                  font-size: 1.8vmax;
+        }    
+        .LogIn .log .logRight .logMedium form{
+                 width: 100%;
+        }
+        .LogIn .log .logRight .one{
+                  margin-top: 3vmax;
+        }   
+        .LogIn .log .logRight .one label{
+                  font-size: 2.5vmax;
+        }
+        .LogIn .log .logRight .one .int i{
+                   margin-right: 35vmax;
+                   font-size: 3vmax;
+                  }
+        
+        .LogIn .log .logRight .one .int input{
+                  padding: 2vmax 7vmax;
+        }
+        .LogIn .log .logRight .one button{
+                  padding: 1.5vmax 0vmax;
+        
+        }
+        .LogIn .log .logRight .forgot {
+                margin-left: 0vmax;
+        }
+        .LogIn .log .logRight .logBottom{
+                margin-top: 3vmax;
+                align-items: center;
+        }
+        .LogIn .log .logRight .logBottom .btm{
+                width: 90%;
+        }
+
+        .LogIn .log .logRight .logBottom .btm h3{
+             font-size: 2vmax;
+        }
+        .LogIn .log .logRight .logBottom .btm .btns button{
+               padding: 0.5vmax 2vmax;
+        }
+        .LogIn .log .logRight .logBottom .btm button{
+                padding: 0.5vmax 2vmax;
+        }
+        .LogIn .log .logRight .logBottom .btm button i{
+              font-size: 3vmax;
+        }
+        
+}
+
+@media (min-width:600px) and (max-width:950px) {
+        .LogIn .log{
+                  flex-direction: column;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  flex-direction: column;
+          }
+          .LogIn .log .logLeft{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+            }    
+            .LogIn .log .logLeft img{
+                  margin-right: 0vmax;
+                  width: 70%;
+          }  
+          .LogIn .log .logRight{
+                  width: 90%;
+        }
+        .LogIn .log .logRight .logTop{
+         margin-top: 4vmax;
+        }
+        .LogIn .log .logRight .logTop h3{
+                  font-size: 4vmax;
+        }
+        .LogIn .log .logRight .logTop p{
+                  font-size: 1.8vmax;
+        }    
+        .LogIn .log .logRight .logMedium form{
+                 width: 100%;
+        }
+        .LogIn .log .logRight .one{
+                  margin-top: 3vmax;
+        }   
+        .LogIn .log .logRight .one label{
+                  font-size: 2.5vmax;
+        }
+        .LogIn .log .logRight .one .int i{
+                   margin-right: 55vmax;
+                   font-size: 3vmax;
+                  }
+        
+        .LogIn .log .logRight .one .int input{
+                  padding: 2vmax 7vmax;
+        }
+        .LogIn .log .logRight .one button{
+                  padding: 1.5vmax 0vmax;
+                  font-size: 2vmax;
+        
+        }
+        .LogIn .log .logRight .forgot {
+                margin-left: 0vmax;
+        }
+        .LogIn .log .logRight .logBottom{
+                margin-top: 3vmax;
+                align-items: center;
+        }
+        .LogIn .log .logRight .logBottom .btm{
+                width: 90%;
+        }
+
+        .LogIn .log .logRight .logBottom .btm h3{
+             font-size: 2.3vmax;
+        }
+        .LogIn .log .logRight .logBottom .btm .btns button{
+               padding: 1vmax 5vmax;
+               font-size: 1.8vmax;
+        }
+        .LogIn .log .logRight .logBottom .btm button{
+                padding: 0.5vmax 2vmax;
+        }
+        .LogIn .log .logRight .logBottom .btm button i{
+              font-size: 3vmax;
+        }
+        
+}

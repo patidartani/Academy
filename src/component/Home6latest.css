@@ -1,0 +1,109 @@
+.home6main{
+    width: 100%;
+    margin-top: 7vmax;
+}
+.home6main .home6content{
+    width: 100%;
+    text-align: center;
+}
+.home6main .home6content h3{
+    font-weight: 700;
+    font-size: 2.6vmax;
+}
+.home6main .home6content p{
+    color: gray;
+    font-size: 1.2vmax;
+    margin-top: 1.5vmax;
+}
+.home6boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1vmax;
+    flex-wrap: wrap;
+}
+.home6boxes .home6img{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3vmax;
+}
+.home6boxes .home6img img{
+    width: 43%;
+    height: 11vmax;
+}
+.home6boxes .home6box{
+    width: 50%;
+    cursor: pointer;
+    margin-left: 1vmax;
+}
+.home6boxes .home6box h6{
+    color: gray;
+    font-size: 0.9vmax;
+}
+.home6boxes .home6box h6 i{
+    margin-right: 0.8vmax;
+    font-size: 1.2vmax;
+    color: rgb(0,144,127);
+}
+.home6boxes .home6box h5{
+    font-size: 1.3vmax;
+}
+.home6boxes .home6box p{
+    color: gray;
+    font-size: 1.1vmax;
+    margin-top: 0.5vmax;
+    
+}
+.home6boxes .home6box h3{
+    font-size: 1.8vmax;
+    color: rgb(0,144,127);
+    margin-top: -1.7vmax;
+  
+}
+
+
+
+@media (max-width:600px) {
+    .home6main .home6content h3{
+        font-size: 3.5vmax;
+    }
+    .home6main .home6content p{
+        font-size: 1.9vmax;
+    }
+    .home6boxes{
+    align-items: center;
+}
+.home6boxes .home6img{
+    width: 100%;
+    flex-direction: column;
+}
+.home6boxes .home6img img{
+    width: 85%;
+    height: 25vmax;
+}
+.home6boxes .home6box{
+    width: 80%;
+    margin-top: 2vmax;
+}
+.home6boxes .home6box h6{
+    font-size: 1.6vmax;
+}
+.home6boxes .home6box h6 i{
+    font-size: 1.9vmax;
+}
+.home6boxes .home6box h5{
+    font-size: 2.5vmax;
+}
+.home6boxes .home6box p{
+    font-size: 1.7vmax;
+    margin-top: 0.5vmax;
+    
+}
+.home6boxes .home6box h3{
+    font-size: 3vmax;
+    margin-top: -2vmax;
+  
+}
+}

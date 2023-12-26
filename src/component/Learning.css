@@ -1,0 +1,486 @@
+.Learning{
+          width: 100%;
+          height: auto;
+          margin-top: 6vmax;
+}
+.Learning .learn{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+}
+.Learning .learn .StartJoin{
+          width: 80%;
+          height: 25vmax;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          /* background-color: rgb(167, 255, 252); */
+}
+.Learning .learn .StartJoin .Start{
+          width: 45%;
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          height: 15vmax;
+          border-radius: 10px;
+          background-image: url(https://www-2.rotman.utoronto.ca/userfiles/brownbags/researchhub/headerimage/Tradeoffs--FEATURE.webp);
+}
+.Learning .learn .StartJoin .Start  .texts{
+          display: flex;
+          width: 50% ;
+          position: relative;
+          bottom: 20%;
+          height: 15vmax;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+}
+.Learning .learn .StartJoin .Start .texts .logo{
+         width: 30%;
+         height: 5vmax;
+         background-position: top;
+         background-size: contain;
+         object-fit: contain;
+}
+.Learning .learn .StartJoin .Start .texts .logo img{
+          width: 90%;
+          height: 5vmax;
+}
+.Learning .learn .StartJoin .Start .texts h1{
+          font-size: 1.4vmax;
+          color: #fff;
+          font-weight: bolder;
+          display: flex;
+          flex-direction: column;
+}
+.Learning .learn .StartJoin .Start .texts  button{
+          background-color: #fff;
+          border-radius: 5px;
+          border: none;
+          padding: 0.5vmax 1vmax;
+}
+.Learning .learn .StartJoin .Start .texts  button a{
+          text-decoration: none;
+          color: black;
+}
+.Learning .learn .StartJoin .Start .texts h1 span{
+          font-size: 0.9vmax;
+          font-weight: lighter;
+}
+.Learning .learn .StartJoin .Start  .girl {
+          width: 40%;
+          height:17vmax;
+          position: relative;
+          bottom: 20%;
+          background-position: top;
+          background-size: contain;
+          object-fit: contain;
+}
+.Learning .learn .StartJoin .Start  .girl img{
+          width: 100%;
+          height:17vmax;
+}
+
+
+
+.Learning .learn .StartJoin .Join{
+          width: 45%;
+          position: relative;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          height: 15vmax;
+          border-radius: 10px;
+          background-image: url(https://papers.co/wallpaper/papers.co-vy76-wave-color-purple-pattern-background-29-wallpaper.jpg);
+}
+.Learning .learn .StartJoin .Join  .texts{
+          display: flex;
+          width: 50% ;
+          position: relative;
+          bottom: 20%;
+          height: 15vmax;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+}
+.Learning .learn .StartJoin .Join .texts .logo{
+         width: 30%;
+         height: 5vmax;
+         background-position: top;
+         background-size: contain;
+         object-fit: contain;
+}
+.Learning .learn .StartJoin .Join .texts .logo img{
+          width: 90%;
+          height: 5vmax;
+}
+.Learning .learn .StartJoin .Join .texts h1{
+          font-size: 1.4vmax;
+          color: #fff;
+          font-weight: bolder;
+          display: flex;
+          flex-direction: column;
+}
+.Learning .learn .StartJoin .Join .texts  button{
+          background-color: #fff;
+          border-radius: 5px;
+          border: none;
+          padding: 0.5vmax 1vmax;
+}
+.Learning .learn .StartJoin .Join .texts  button a{
+          text-decoration: none;
+          color: black;
+}
+.Learning .learn .StartJoin .Join .texts h1 span{
+          font-size: 0.9vmax;
+          font-weight: lighter;
+}
+.Learning .learn .StartJoin .Join  .boy {
+          width: 40%;
+          height:17vmax;
+          position: relative;
+          bottom: 20%;
+          background-position: top;
+          background-size: contain;
+          object-fit: contain;
+}
+.Learning .learn .StartJoin .Join .boy img{
+          width: 100%;
+          height:17vmax;
+}
+
+/* ------------------- */
+
+
+@media (max-width:600px) {
+          .Learning{
+                    width: 100%;
+                    height: auto;
+          }
+          .Learning .learn{
+                    width: 100%;
+                    height: auto;
+          }
+          .Learning .learn .StartJoin{
+                    width: 90%;
+                    height: 100vmax;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+          }
+          .Learning .learn .StartJoin .Start{
+                    width: 95%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Start  .texts{
+                    width: 50% ;
+                    position: relative;
+                    bottom: 10%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Start .texts .logo{
+                    width: 50%;
+                    height: 10vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts .logo img{
+                     width: 100%;
+                     height: 9vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts h1{
+                     font-size: 3vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts  button{
+                     padding: 1.5vmax 3vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts h1 span{
+                     font-size: 2vmax;
+           }
+
+          .Learning .learn .StartJoin .Start  .girl {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Start  .girl img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+
+          .Learning .learn .StartJoin .Join{
+                    width: 95%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Join  .boy {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Join  .boy img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+          .Learning .learn .StartJoin .Join  .texts{
+                    width: 50% ;
+                    position: relative;
+                    bottom: 10%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Join .texts .logo{
+                    width: 50%;
+                    height: 10vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts .logo img{
+                     width: 100%;
+                     height: 9vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts h1{
+                     font-size: 3vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts  button{
+                     padding: 1.5vmax 3vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts h1 span{
+                     font-size: 2vmax;
+           }
+
+          .Learning .learn .StartJoin .Join  .girl {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Join  .girl img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+}
+
+@media (min-width:600px) and (max-width:850px) {
+          .Learning{
+                    width: 100%;
+                    height: auto;
+          }
+          .Learning .learn{
+                    width: 100%;
+                    height: auto;
+          }
+          .Learning .learn .StartJoin{
+                    width: 90%;
+                    height: 100vmax;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+          }
+          .Learning .learn .StartJoin .Start{
+                    width: 95%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Start  .texts{
+                    width: 50% ;
+                    position: relative;
+                    bottom: 10%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Start .texts .logo{
+                    width: 50%;
+                    height: 10vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts .logo img{
+                     width: 100%;
+                     height: 9vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts h1{
+                     font-size: 3vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts  button{
+                     padding: 1.5vmax 3vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts h1 span{
+                     font-size: 2vmax;
+           }
+
+          .Learning .learn .StartJoin .Start  .girl {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Start  .girl img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+
+          .Learning .learn .StartJoin .Join{
+                    width: 95%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Join  .boy {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Join  .boy img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+          .Learning .learn .StartJoin .Join  .texts{
+                    width: 50% ;
+                    position: relative;
+                    bottom: 10%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Join .texts .logo{
+                    width: 50%;
+                    height: 10vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts .logo img{
+                     width: 100%;
+                     height: 9vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts h1{
+                     font-size: 3vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts  button{
+                     padding: 1.5vmax 3vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts h1 span{
+                     font-size: 2vmax;
+           }
+
+          .Learning .learn .StartJoin .Join  .girl {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Join  .girl img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+}
+
+
+@media (min-width:850px) and (max-width:1150px) {
+          .Learning{
+                    width: 100%;
+                    height: auto;
+          }
+          .Learning .learn{
+                    width: 100%;
+                    height: auto;
+          }
+          .Learning .learn .StartJoin{
+                    width: 90%;
+                    height: 100vmax;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+          }
+          .Learning .learn .StartJoin .Start{
+                    width: 95%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Start  .texts{
+                    width: 50% ;
+                    position: relative;
+                    bottom: 10%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Start .texts .logo{
+                    width: 50%;
+                    height: 10vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts .logo img{
+                     width: 100%;
+                     height: 9vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts h1{
+                     font-size: 3vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts  button{
+                     padding: 1.5vmax 3vmax;
+           }
+           .Learning .learn .StartJoin .Start .texts h1 span{
+                     font-size: 2vmax;
+           }
+
+          .Learning .learn .StartJoin .Start  .girl {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Start  .girl img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+
+          .Learning .learn .StartJoin .Join{
+                    width: 95%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Join  .boy {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Join  .boy img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+          .Learning .learn .StartJoin .Join  .texts{
+                    width: 50% ;
+                    position: relative;
+                    bottom: 10%;
+                    height: 40vmax;
+          }
+          .Learning .learn .StartJoin .Join .texts .logo{
+                    width: 50%;
+                    height: 10vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts .logo img{
+                     width: 100%;
+                     height: 9vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts h1{
+                     font-size: 3vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts  button{
+                     padding: 1.5vmax 3vmax;
+           }
+           .Learning .learn .StartJoin .Join .texts h1 span{
+                     font-size: 2vmax;
+           }
+
+          .Learning .learn .StartJoin .Join  .girl {
+                    width: 40%;
+                    height:30vmax;
+                    position: relative;
+                    bottom: 20%;
+          }
+          .Learning .learn .StartJoin .Join  .girl img{
+                    width: 100%;
+                    height:25vmax;
+          }
+
+}
