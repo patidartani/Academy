@@ -55,7 +55,6 @@
          color: #fff;
          transition: 0.5s;
 }
-/* ------------------ */
 .tooltip {
        visibility: hidden;
        width: 70px;
@@ -79,7 +78,6 @@
      .AllCourses .Courses .CoursesRight .CousesRightTop .left .icons i:hover{
        transform: translateY(-0.5vmax);
      }
-/* ----------------------- */
 .AllCourses .Courses .CoursesRight .CousesRightTop .right {
           width: 100%;
           height: auto;
@@ -132,7 +130,6 @@
           height: auto;
           display: block;
 } 
-/* ----------- */
 .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .LEFT .like-icon i {
        color: rgba(50, 50, 50, 0.687);
        font-size: 1.2vmax;
@@ -161,7 +158,6 @@
        border-radius: 0 0 10px 0;
      }
 
-/* ---------------- */
 .AllCourses .Courses .CoursesRight .CourseContent .ContentBox .RIGHT{
           width: 70%;
           height: auto;
@@ -238,7 +234,6 @@
     color: blue;
 }
 
-/* ----------------------pagination-------------- */
 
 .pagination {
        margin-top: 20px;
@@ -271,7 +266,6 @@
      }
 
      
-/* ---------------------mediaquerry------------ */
 
 
 @media (max-width:600px) {
